@@ -5,8 +5,8 @@ from colorama import init, Fore, Back, Style
 import urllib3, sys
 init(convert=True)
 
-#site=input(" < Enter Site towards you want to test your proxies,(for example: https://www.kith.com): ")
-site="https://www.blackoutio.com"
+site=input(" < Enter Site towards you want to test your proxies,(for example: https://www.kith.com): ")
+
 indexProxy = 0 
 def getProxy():
 	global indexProxy
